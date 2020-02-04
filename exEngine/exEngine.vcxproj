@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\exEngine\Log.h" />
     <ClInclude Include="src\exEngine\application.h" />
     <ClInclude Include="src\exEngine\core.h" />
     <ClInclude Include="src\exEngine.h" />
     <ClInclude Include="src\exEngine\entryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\exEngine\Log.cpp" />
     <ClCompile Include="src\exEngine\application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -67,6 +69,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>EX_PLATFORM_WINDOWS;EX_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)exEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,6 +84,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>EX_PLATFORM_WINDOWS;EX_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)exEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
