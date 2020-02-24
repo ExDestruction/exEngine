@@ -9,3 +9,6 @@
 #else
 	#error exEngine only supports Windows!
 #endif // EX_PLATFORM_WIMDOWS
+
+
+#define BIT(x) (1 << x)
