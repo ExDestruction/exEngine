@@ -3,8 +3,6 @@
 
 #include "event.h"
 
-#include <sstream>
-
 namespace exEngine
 {
 	class EX_API window_resize_event : public event

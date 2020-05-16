@@ -21,6 +21,9 @@ project "exEngine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "expch.h"
+	pchsource "exEngine/src/expch.cpp"
+
 	files 
 	{
 		"%{prj.name}/src/**.h",

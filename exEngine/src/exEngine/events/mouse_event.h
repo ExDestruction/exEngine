@@ -3,8 +3,6 @@
 
 #include "event.h"
 
-#include <sstream>
-
 
 namespace exEngine
 {

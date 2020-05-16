@@ -4,9 +4,6 @@
 #include "exEngine/core.h"
 
 
-#include <string>
-#include <functional>
-
 
 namespace exEngine
 {
